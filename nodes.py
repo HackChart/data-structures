@@ -5,6 +5,9 @@ class LinearNode:
         self.data = data
         self.next_node = next_node
 
+    def set_next_node(self, new_node):
+        self.next_node = new_node
+
 
 class BidirectionalNode(LinearNode):
     """Basic Bidirectional Node Structure, inherits from LinearNode"""
